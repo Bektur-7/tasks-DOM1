@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<!-- 9 задание  -->
+
+<button id="btn">
+    <p onClick="body.style.background = 'blue'">Нажми!</p>
+</button> 
+
+
+
+<!-- 10 задание  -->
+<form action="" id="form">
+
+    <label for="name">Имя</label>
+    <input type="text" name="name" placeholder="Имя" id="name" /><br /><br/>
+
+    <label for="password">Пароль</label>
+    <input type="text" name="password" placeholder="Пароль" id="password"/><br /><br/>
+
+    <label for="hobby">Хобби</label>
+    <input type="text" name="hobby" placeholder="Хобби" id="hobby" /><br /><br/>
+
+    <span>Пол</span>
+    <input type="radio" name="state" id="male" value="Мужской" /> 
+    <label for="male"> Мужской</label>
+    <input type="radio" name="state" id="female" value="Женский" /> 
+    <label for="female"> Женский</label><br/><br/>
+
+    <input type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Готово">
+
+
+</form>
+
+
+
+    <script src="./JS/main.js"></script>
+</body>
+</html>
